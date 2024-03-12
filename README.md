@@ -71,7 +71,7 @@ cv2.waitKey(0)
 ```python
 
 import cv2
-gray_image = cv2.imread("bird.jpeg",0)
+gray_image = cv2.imread("bird.jpg",0)
 cv2.imshow('Grey Scale Image',gray_image)
 equ = cv2.equalizeHist(gray_image)
 cv2.imshow("Equalized Image",equ)
